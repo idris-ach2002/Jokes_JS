@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 226, 255);
+    cursor: pointer;
+}
+
+.app {
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to right, rgb(169, 98, 231),rgb(100, 209, 241) );
+}
+
+#header, #content {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: azure;
+}
